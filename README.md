@@ -4,7 +4,7 @@ Implementation of the Graph Attention Network (GAT) from [Velickovic et al., 201
 
 ## Architecture
 
-GAT uses **attention mechanisms** on graphs — each node learns to weigh its neighbors differently based on their features:
+GAT uses attention mechanisms on graphs where each node learns to weigh its neighbors differently based on their features:
 
 1. A shared linear transformation is applied to every node
 2. Attention coefficients are computed between each node and its neighbors using a learned attention vector + LeakyReLU
